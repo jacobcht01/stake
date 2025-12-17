@@ -13,7 +13,7 @@
     // Insert Google tag (gtag.js) script inside <head>
     var gtagScript = document.createElement("script");
     gtagScript.async = true;
-    gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=G-ZSHBXW4HYV";
+    gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=G-ZSL212KDM1";
     document.head.appendChild(gtagScript);
 
     var gtagInlineScript = document.createElement("script");
@@ -21,7 +21,7 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-ZSHBXW4HYV');
+      gtag('config', 'G-ZSL212KDM1');
     `;
     document.head.appendChild(gtagInlineScript);
 })();
