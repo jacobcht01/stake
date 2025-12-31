@@ -5,7 +5,7 @@
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NTRJ5KHX');`;
+    })(window,document,'script','dataLayer','GTM-TVLDGCRH');`;
     document.head.appendChild(gtmScript);
 })();
 
@@ -13,7 +13,7 @@
     // Insert Google tag (gtag.js) script inside <head>
     var gtagScript = document.createElement("script");
     gtagScript.async = true;
-    gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=G-ZSL212KDM1";
+    gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=G-NJ3W4H6ZMJ";
     document.head.appendChild(gtagScript);
 
     var gtagInlineScript = document.createElement("script");
@@ -21,7 +21,7 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-ZSL212KDM1');
+      gtag('config', 'G-NJ3W4H6ZMJ');
     `;
     document.head.appendChild(gtagInlineScript);
 })();
@@ -29,7 +29,7 @@
 // 2️⃣ Insert Google Tag Manager noscript inside <body>
 document.addEventListener("DOMContentLoaded", function() {
     var gtmNoScript = document.createElement("noscript");
-    gtmNoScript.innerHTML = `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NTRJ5KHX"
+    gtmNoScript.innerHTML = `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TVLDGCRH"
     height="0" width="0" style="display:none;visibility:hidden"></iframe>`;
     document.body.insertBefore(gtmNoScript, document.body.firstChild);
 });
